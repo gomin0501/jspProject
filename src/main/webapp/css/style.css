@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Moirai+One&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+#content{
+	min-height : calc(100% - 30px);
+}
+.header-image{
+	background-image: url('../ShoppingMall/image/headerstarlight.png') !important;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:0 -50px;
+	height:450px;
+	text-align:center;
+	position:relative;
+}
+.mealkku{
+	border:ridge 7px #b4f0f7;
+	border-radius:20px;
+	background-color:white;
+	box-shadow: inset 0 0 10px 5px lightgrey;
+	margin:0 auto;
+	padding:10px;
+	width:16%;
+	position:absolute;
+	top:280px;
+	left:42%;
+	font-family: "Bagel Fat One", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+  	color:#f7e259;
+}
+.headerfont{
+  	font-size:3em;
+	
+}
+.validationError{
+	color:red;
+}
+.join{
+	background-color:#b4f0f7;
+	font-family: "Bagel Fat One", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+  	color:#6f7575;
+}
+.login{
+	font-family: "Bagel Fat One", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+	color:#b4f0f7;
+}
+.add-member{
+	margin:0 auto;
+}
+.btn-join{
+	background: #b4f0f7;
+}
+
+.btn-join:hover {
+  background: #14abbc;
+}
+
+.loginfrm{
+	width:40%;
+	margin:0 auto;
+}
+.item,.item-name{
+	text-align:left;
+	font-weight:bold;
+}
+.item{
+	margin-top:10px;
+
+	}
+.product{
+	text-align:left;
+	line-height:8px;
+	margin:30px 0;
+	width:244px; 
+	height:280px;
+	
+}
+.item-image{
+	width:230px; 
+	height:230px;
+}
+.sticker{
+	width:330px;
+	height:500px;
+	text-align:left;
+	line-height:8px;
+	margin:30px 0;
+}
+.sticker-image{
+	width:300px; 
+	height:380px;
+}
+
+.btn-reply{
+	float:right;
+}
+
+.product-div{
+	width:50%;
+	padding:20px;
+	margin-top:20px;
+}
+.product-img{
+	width:48%; 
+	padding-top:20px;
+	margin-top:20px;
+	max-width:520px;
+	max-height:520px;
+}
+div.footer{
+	height:30px !important;
+}
